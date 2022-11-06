@@ -33,15 +33,21 @@ namespace Sutemenyek
                     }
                 }
                 mSutemenyek.Enabled = true;
-                frmSutemenyek frmSutemenyek = new frmSutemenyek();
+                frmSutemenyek frmSutemenyek = new frmSutemenyek(sutemenyeks);
                 frmSutemenyek.ShowDialog();
             }
         }
 
         private void mSutemenyek_Click(object sender, EventArgs e)
         {
-            frmSutemenyek frmSutemenyek = new frmSutemenyek();
+            frmSutemenyek frmSutemenyek = new frmSutemenyek(sutemenyeks);
             frmSutemenyek.ShowDialog();
+        }
+
+        private void mNevjegy_Click(object sender, EventArgs e)
+        {
+            frmNevjegy frmNevjegy = new frmNevjegy();
+            frmNevjegy.ShowDialog();
         }
     }
 }

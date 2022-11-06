@@ -69,6 +69,7 @@ namespace Sutemenyek
             this.mNevjegy.Name = "mNevjegy";
             this.mNevjegy.Size = new System.Drawing.Size(62, 20);
             this.mNevjegy.Text = "Névjegy";
+            this.mNevjegy.Click += new System.EventHandler(this.mNevjegy_Click);
             // 
             // ofdSutemeny
             // 
